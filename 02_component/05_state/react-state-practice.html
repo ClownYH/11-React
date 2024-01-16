@@ -13,8 +13,14 @@
 
     <script type="text/babel">
         const {useState} = React;
+
+        const obj = {
+            number:0
+        }
+
         function Practice(){
-            const [number, setNumber] = useState(0);
+            const [number, setNumber] = useState(obj.number);
+            // const [number, setNumber] = useState(0);
             const [color, setColor] = useState("black");
 
             return (
