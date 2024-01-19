@@ -13,7 +13,11 @@ function Header(){
     return (
         <>
         <header>
-            <div className='title'><span>YUHWAN</span><span> is here.</span></div>
+            <div className='title'>
+                <button onClick={() => moveToLocate('welcome')}>
+                    <span>YUHWAN</span><span> is here.</span>
+                </button>
+            </div>
             <div className='buttonList'>
                 <button className='button' onClick={() => moveToLocate('about')}><p>어바웃.</p><p>About.</p></button>
                 <button className='button' onClick={() => moveToLocate('skills')}><p>스킬.</p><p>Skills.</p></button>

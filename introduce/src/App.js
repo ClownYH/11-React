@@ -5,6 +5,7 @@ import Skills from "./skills";
 import Projects from "./projects";
 import Contact from "./contact";
 import './normalizing.css';
+import './body.css';
 
 function App() {
   return (

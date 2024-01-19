@@ -25,9 +25,6 @@ function About () {
                         <label>주소 </label><span>경기도 안양</span>
                     </p>
                     <p>
-                        <label>Email </label><span>qwer1745@gmail.com</span>
-                    </p>
-                    <p>
                         <label>학력 </label><span>한국공학대학교</span><span>(구 한국산업기술대학교)</span><span> 기계공학과 졸업</span>
                     </p>                  
                     

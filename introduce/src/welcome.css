@@ -1,0 +1,96 @@
+#welcome {
+    padding-top: 9.25%;
+}
+
+
+#recordPlayer {
+    background-color: #8E5119;
+    height: 65rem;
+    width: 65rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+#cd {
+    margin: auto;
+}
+
+#cd1 {
+    margin: auto;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 50%;
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotateAndMove 5s linear infinite;
+}
+
+@keyframes rotateAndMove {
+    0% {
+        transform: rotate(0deg) translateX(-5px);
+    }
+    50% {
+        transform: rotate(180deg) translateX(5px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(-5px);
+    }
+}
+
+#cd2 {
+    margin: auto;
+    width: 58rem;
+    height: 58rem;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotateBackwards {
+    0%, 100% {
+        transform: rotate(0deg); /* 회전을 반대로 해제 */
+    }
+    50% {
+        transform: rotate(0deg); /* 회전을 반대로 해제하는 중간 지점 */
+    }
+}
+
+#profile {
+    width: 20rem;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    animation: none;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#bar {
+    width: 2rem; /* 리더 막대의 너비 */
+    height: 45rem; /* 리더 막대의 높이 */
+    background-color: #333; /* 리더 막대의 색상 */
+    position: absolute;
+    border-radius: 10%;
+    top: 0%;
+    left: 20%;
+    transform:translateY(-50%) rotate(-20deg); /* 부모 요소 중앙 정렬 */
+    z-index: 0;
+    animation: moveUpDown 2s infinite;
+}
