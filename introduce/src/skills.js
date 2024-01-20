@@ -3,7 +3,7 @@ function Skills () {
     return (
         <section id="skills">
             <h2>
-                <p>스킬.</p>
+                <p className='subTitle'>스킬.</p>
                 <p>Skills.</p>
             </h2>
 

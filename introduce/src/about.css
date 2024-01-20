@@ -1,0 +1,15 @@
+#about {
+    padding-top: 4.725%;
+    cursor:default;
+}
+
+#picture {
+    width: 20rem;
+    border-radius: 50%;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

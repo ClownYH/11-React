@@ -1,13 +1,17 @@
 #welcome {
-    padding-top: 9.25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: hidden;
 }
 
 
 #recordPlayer {
-    background-color: #8E5119;
+    background: url('./img/6464359.jpg') center/cover;
     height: 65rem;
     width: 65rem;
     border-radius: 5%;
+    border: solid 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,11 +28,12 @@
     width: 60rem;
     height: 60rem;
     border-radius: 50%;
-    background-color: silver;
+    background: radial-gradient(circle, rgb(34, 34, 34), #000);
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: rotateAndMove 5s linear infinite;
+    animation: rotateAndMove 20s linear infinite;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes rotateAndMove {
@@ -45,22 +50,13 @@
 
 #cd2 {
     margin: auto;
-    width: 58rem;
-    height: 58rem;
+    width: 24rem;
+    height: 24rem;
     border-radius: 50%;
-    background-color: grey;
+    background-color: rgb(224, 90, 0);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-@keyframes rotateBackwards {
-    0%, 100% {
-        transform: rotate(0deg); /* 회전을 반대로 해제 */
-    }
-    50% {
-        transform: rotate(0deg); /* 회전을 반대로 해제하는 중간 지점 */
-    }
 }
 
 #profile {
@@ -72,25 +68,45 @@
 
 @keyframes moveUpDown {
     0% {
-        transform: translateX(0);
+        transform: translateX(0) rotate(-25deg);
     }
     50% {
-        transform: translateX(10px);
+        transform: translateX(10px) rotate(-25deg);
     }
     100% {
-        transform: translateX(0);
+        transform: translateX(0) rotate(-25deg);
     }
 }
 
 #bar {
     width: 2rem; /* 리더 막대의 너비 */
     height: 45rem; /* 리더 막대의 높이 */
-    background-color: #333; /* 리더 막대의 색상 */
+    background-color: #362929; /* 리더 막대의 색상 */
     position: absolute;
     border-radius: 10%;
     top: 0%;
     left: 20%;
-    transform:translateY(-50%) rotate(-20deg); /* 부모 요소 중앙 정렬 */
+    transform:translateY(-50%) rotate(-50deg); /* 부모 요소 중앙 정렬 */
     z-index: 0;
     animation: moveUpDown 2s infinite;
+}
+
+#cd1:hover , #bar:hover {
+    animation-play-state: paused;
+}
+
+.libre-barcode {
+    font-family: "Libre Barcode 39 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 2;
+    padding-top: 9.25%;
+    color: white;
+    cursor: default;
+}
+  
+#timer {
+    width: fit-content;
+    font-size: 70px;
+    color: white;
 }

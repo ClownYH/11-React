@@ -2,3 +2,18 @@ body {
     background-color: #bb6b21;
     z-index: 0;
 }
+
+h2 {
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: fit-content;
+    color: rgba(211, 211, 211, 0.5);
+    font-size: large;
+}
+
+.subTitle {
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+}

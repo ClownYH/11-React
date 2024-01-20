@@ -3,7 +3,7 @@ function Projects(){
     return (
         <section id="projects">
             <h2>
-                <p>프로젝트.</p>
+                <p className='subTitle'>프로젝트.</p>
                 <p>Projects.</p>
             </h2>
 
