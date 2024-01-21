@@ -15,7 +15,7 @@ function Header(){
         <header>
             <div className='title'>
                 <button onClick={() => moveToLocate('welcome')}>
-                    <span>YUHWAN</span><span> is here.</span>
+                    <span id='yuhwan'>YUHWAN</span><span> is here.</span>
                 </button>
             </div>
             <div className='buttonList'>

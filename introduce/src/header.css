@@ -6,6 +6,10 @@ header {
     z-index: 10;
 }
 
+#yuhwan:hover {
+    color: purple;
+}
+
 .title {
     color: white;
     position: absolute;
