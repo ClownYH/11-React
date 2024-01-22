@@ -1,4 +1,7 @@
+import './skills.css'
+
 function Skills () {
+    const skillName = [""]
 
     return (
         <section id="skills">
@@ -7,8 +10,42 @@ function Skills () {
                 <p>Skills.</p>
             </h2>
 
-            <article>
-                기술이미지와 대략적인 설명
+            <article id='skillTree'>
+                <div className='skillTable'>
+                    <div className='skill'>
+                        <label>
+                            HTML
+                        </label>
+                    </div>
+                    <div className='skill'>
+                        <label>
+                            JAVASCRIPT
+                        </label>
+                    </div>
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
+
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
+
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
+
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
+                </div>
             </article>
         </section>
     )

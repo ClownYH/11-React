@@ -58,6 +58,8 @@ function About () {
                         <img id="picture" src={프사2} alt="프사2" draggable='false'/>
                     </div>
                     <div className='selfIntro'>
+                        <h3>Profile</h3>
+                        <br/>
                         <p>
                             <FontAwesomeIcon icon={faUser} /><label> 이름 </label><span>정유환</span>
                         </p>

@@ -18,6 +18,11 @@ h2 {
     font-size: x-large;
 }
 
+section {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 /* 스크롤바 */
 body::-webkit-scrollbar {
     width: 12px; /* 스크롤바의 너비 */
