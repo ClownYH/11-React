@@ -1,6 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import 프사 from './img/프사.jpg'
 import './welcome.css'
+import music from "./music/a-jazz-piano.mp3"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCirclePause, faCirclePlay, faCircleStop } from '@fortawesome/free-solid-svg-icons';
 
 const CurrentTime = () => {
     const [timer, setTimer] = useState(new Date());
@@ -22,6 +25,31 @@ const CurrentTime = () => {
 }
 
 function Welcome () {
+    const [isPlaying, setIsPlaying] = useState(false);
+
+    // const audio = document.getElementById("backgroundMusic");
+    const audioRef = useRef(null); // 상태를 참조해옴
+
+    const playMusic = () => {
+        const audio = audioRef.current;
+        if(audio){
+            if(audio.paused){
+                audio.play();
+            }else{
+                audio.pause();
+            }
+            setIsPlaying(!isPlaying);
+        }
+    }
+
+    const stopMusic = () => {
+        const audio = audioRef.current;
+        if(audio){
+            audio.currentTime = 0;
+            audio.pause();
+            setIsPlaying(false);
+        }
+    }
 
     return (
         <section id='welcome'>
@@ -50,6 +78,11 @@ function Welcome () {
                         </div>
                     </div>
                     <div id='bar'></div>
+                    <div id='musicPlayer'>
+                    <audio id='backgroundMusic' src={music} ref={audioRef} autoPlay={true} loop/>
+                    <button id='play' onClick={playMusic}>{isPlaying? <FontAwesomeIcon icon={faCirclePause}/> : <FontAwesomeIcon icon={faCirclePlay}/>}</button>
+                    <button id='stop' onClick={stopMusic}><FontAwesomeIcon icon={faCircleStop}/></button>
+                    </div>
                 </div>
             </article>
 

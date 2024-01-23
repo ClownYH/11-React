@@ -110,3 +110,28 @@
     font-size: 70px;
     color: white;
 }
+
+#musicPlayer button{
+    position: absolute;
+    top: 15rem;
+    right: 1rem;
+    background-color: silver;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    font-size: xx-large;
+    color: black;
+}
+
+#musicPlayer button:hover {
+    background-color: darkgray;
+}
+
+#musicPlayer button:active {
+    background-color: gray;
+    color: white;
+}
+
+#musicPlayer #stop {
+    top:10rem
+}
