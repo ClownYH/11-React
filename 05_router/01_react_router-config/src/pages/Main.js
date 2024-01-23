@@ -1,0 +1,16 @@
+import { useState } from "react";
+
+
+const Main = () => {
+    const [menu, setMenu] = useState(0);
+
+    const onChange = () => setMenu(menu + 1);
+    return (
+        <div>
+            <h1>메인</h1>
+            <button onClick={onChange}>+1</button>
+        </div>
+    )
+}
+
+export default Main;
