@@ -6,8 +6,8 @@ const Main = () => {
 
     return (
         <div>
-            <h1>메인</h1>
-            <button onClick={() => setMain + 1}>+1</button>
+            <h1>메인 : {main}</h1>
+            <button onClick={() => setMain(main+1)}>+1</button>
         </div>
         
     )
