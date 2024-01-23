@@ -45,6 +45,18 @@ function Skills () {
                             JAVA
                         </label>
                     </div>
+
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
+
+                    <div className='skill'>
+                        <label>
+                            JAVA
+                        </label>
+                    </div>
                 </div>
             </article>
         </section>
