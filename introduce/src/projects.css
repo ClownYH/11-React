@@ -1,0 +1,46 @@
+#projects {
+    cursor:default;
+    padding-top: 4.725%;
+    padding-bottom: 8%;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.project {
+    background-color: white;
+    width: 100rem;
+    min-height: 50rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.mainImg {
+    width: 24rem;
+    height: 24rem;
+}
+
+.description {
+    padding: 2rem;
+}
+
+.refImg {
+    width: 30rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+}
+
+.prSubTitle {
+    font-size: large;
+    color: darkgrey;
+}
+
+.prTitle {
+    font-size: x-large;
+    font-weight: bold;
+}
