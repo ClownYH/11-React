@@ -8,21 +8,25 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 .project {
     background-color: white;
-    width: 100rem;
+    border: solid 1rem goldenrod;
+    width: 95rem;
     min-height: 50rem;
     padding: 2rem;
     display: flex;
     align-items: center;
     border-radius: 2rem;
+    margin-bottom: 1rem;
 }
 
 .mainImg {
     width: 24rem;
     height: 24rem;
+    border-radius: 2rem;
 }
 
 .description {
@@ -33,6 +37,11 @@
     width: 30rem;
     margin: 1rem;
     margin-bottom: 0rem;
+    transition: 0.5s;
+}
+
+.refImg:hover {
+    transform: scale(2);
 }
 
 .prSubTitle {
