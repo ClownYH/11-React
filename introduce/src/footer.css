@@ -1,0 +1,11 @@
+footer {
+    padding: 2rem;
+    background-color: darkolivegreen;
+    color: white;
+    position: relative;
+    bottom: 0rem;
+    height: 2rem;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}

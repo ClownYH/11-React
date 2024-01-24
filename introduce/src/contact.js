@@ -19,7 +19,7 @@ function Contact () {
                         </p>
                     </article>
                     <article className='contactBoard'>
-                        <h3>Archiving</h3>
+                        <h3>Contact to</h3>
                         <hr/>
                         <br/>
                         <a href='https://github.com/ClownYH' target='blank'><strong>github</strong> 바로가기</a>

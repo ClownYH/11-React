@@ -6,6 +6,7 @@ import Projects from "./projects";
 import Contact from "./contact";
 import './normalizing.css';
 import './body.css';
+import Footer from "./footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects/>
       <Contact/>
     </div>
+    <Footer/>
 
     </>
   );

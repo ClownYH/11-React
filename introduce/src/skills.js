@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './skills.css'
 import { faCss3Alt, faGithub, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faCirclePlus, faDatabase, faLeaf, faPowerOff } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlus, faCrow, faDatabase, faLeaf, faPowerOff } from '@fortawesome/free-solid-svg-icons'
 import coffee from './img/coffee.png'
 
 function Skills () {
@@ -44,6 +44,11 @@ function Skills () {
         mySql : {
             name : "MySQL",
             icon : <FontAwesomeIcon icon={faDatabase} size='8x'/>
+        },
+
+        myBatis : {
+            name : "MyBatis",
+            icon : <FontAwesomeIcon icon={faCrow} size='8x'/>
         },
 
         github : {
