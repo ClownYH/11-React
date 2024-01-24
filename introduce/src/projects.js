@@ -45,7 +45,7 @@ function Projects(){
                         <h4><FontAwesomeIcon icon={faChessPawn} /> 링크</h4>
                         <hr/>
                         {/* rel 속성의 noopener는 현재 활성화된 페이지와 새로운 탭에서 활성화되는 페이지를 별개의 프로세스 퓌급,
-                             noreferrer는 현재 활성화된 페이지의 정보를 새로운 탭에서 활성화되는 페이지에 전달하지 않음*/}
+                            noreferrer는 현재 활성화된 페이지의 정보를 새로운 탭에서 활성화되는 페이지에 전달하지 않음*/}
                         <a href={project.github} target='blank' rel="noopener noreferrer"><strong>{project.prTitle}</strong></a>
 
                     </div>

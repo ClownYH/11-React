@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'HakgyoansimBunpilR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimBunpilR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#contact {
+    cursor:default;
+    padding-top: 4.725%;
+    padding-bottom: 8%;
+    color: ghostwhite;
+}
+
+#board1 {
+    background: rgb(91,48,35);
+    background: linear-gradient(45deg, rgba(91,48,35,1) 0%, rgba(79,37,11,1) 13%, rgba(106,60,12,1) 88%);
+    border-radius: 2rem;
+    height: 50rem;
+    min-width:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#board2 {
+    background: rgb(29,83,31);
+    background: linear-gradient(45deg, rgba(29,83,31,1) 0%, rgba(12,106,20,1) 88%);
+    width: 95%;
+    height: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: "HakgyoansimBunpilR";
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactBoard{
+    font-size: xx-large;
+}
+
+.contactBoard a{
+    color: ghostwhite;
+    text-decoration-line: none;
+}
+
+.contactBoard a:hover{
+    color: lightgray;
+}
+
+.contactBoard a:active{
+    color: gray;
+}
