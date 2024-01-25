@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './skills.css'
+import './css/skills.css'
 import { faCss3Alt, faGithub, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { faCirclePlus, faCrow, faDatabase, faLeaf, faPowerOff } from '@fortawesome/free-solid-svg-icons'
-import coffee from './img/coffee.png'
 
 function Skills () {
+    // 해당 자료는  FontAwesomeIcon을 사용하고 있어서 json으로 분리할 수 없었다.
     const skills = {
         html5 : {
             name : "HTML5",
@@ -76,7 +76,7 @@ function Skills () {
             </h2>
             <div id='skillContents'>
             <article id='skillTree'>
-                <img id='coffee' src={coffee} draggable='false'/>
+                <img id='coffee' src='img/coffee.png' draggable='false'/>
                 <div className='skillTable'>
                     {skillList()}
                 </div>

@@ -11,16 +11,24 @@
     align-items: center;
 }
 
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 .project {
     background-color: white;
-    border: solid 1rem goldenrod;
-    width: 95rem;
-    min-height: 50rem;
+    border: solid 1rem rgb(97, 171, 255);
+    width: 88rem;
+    min-height: 40rem;
     padding: 2rem;
     display: flex;
     align-items: center;
     border-radius: 2rem;
     margin-bottom: 1rem;
+    font-family: 'TheJamsil5Bold';
 }
 
 .mainImg {
@@ -34,7 +42,7 @@
 }
 
 .refImg {
-    width: 30rem;
+    width: 27rem;
     margin: 1rem;
     margin-bottom: 0rem;
     transition: 0.5s;

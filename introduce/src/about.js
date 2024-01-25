@@ -1,8 +1,7 @@
-import 프사2 from './img/증명사진(2023).jpg'
-import './about.css'
+import './css/about.css'
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faHand, faUpload, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const CurrentDate = () => {
     const [date, setDate] = useState(new Date());
@@ -39,8 +38,9 @@ function About () {
             <div className='contents'>
                 <article>
                     <div id='saying'>
-                        "항상 <strong>배우고</strong>, 하루하루 <strong>성장</strong>하는 신입 개발자로서<br/>
-                        개발한 것이 문제없이 돌아가는 것에 <strong>기쁨과 보람</strong>을 느낍니다."
+                        "<strong>경험과 노력</strong>으로 쌓는 실력은<br/>저를 더 <strong>단단하게</strong> 담금질합니다."<br/>
+                        <br/>
+                        "그래서 저는 더 많은 기회를 원합니다."
                         <br/>
                         <br/>
                         "<strong className='emp'>근면, 성실</strong>의 기본을 갖춘 <strong className='emp'>노력형 인재</strong>"
@@ -48,20 +48,29 @@ function About () {
                     <br/>
                     <br/>
                     <div id='gitPlants'>
-                        <img src="https://ghchart.rshah.org/ClownYH"/>
+                        <img src="https://ghchart.rshah.org/2697bf/ClownYH"/>
                         <CurrentDate/>
                     </div>
                 </article>
 
                 <article className='subContents'>
                     <div className='album'>
-                        <img id="picture" src={프사2} alt="프사2" draggable='false'/>
+                        <img id="picture" src='/img/증명사진(2023).jpg' alt="프사2" draggable='false'/>
                     </div>
                     <div className='selfIntro'>
                         <h3>Profile</h3>
                         <br/>
                         <p>
-                            <FontAwesomeIcon icon={faUser} /><label> 이름 </label><span>정유환</span>
+                            <label><FontAwesomeIcon icon={faUser} /> </label><span>정유환</span>
+                        </p>
+                        <p>
+                            <label><FontAwesomeIcon icon={faHand}/> </label><span>전형적인 INFP</span>
+                        </p>
+                        <p>
+                            <label><FontAwesomeIcon icon={faBook}/> </label><span>독서, 게임</span>
+                        </p>
+                        <p>
+                            <label><FontAwesomeIcon icon={faUpload}/> </label><span>qwer1745@gmail.com</span>
                         </p>
                     </div>
                 </article>

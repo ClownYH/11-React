@@ -5,8 +5,8 @@
 }
 
 #skillTree {
-    background-color: #834b17;
-    width: 70rem;
+    background-color: #a86323;
+    width: 68rem;
     height: fit-content;
     border-radius: 2rem;
     padding: 3rem;
@@ -17,12 +17,12 @@
 }
 
 .skillTable {
-    background-color: #5c3510;
+    background-color: #754314;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-radius: 2rem;
-    width: 70rem;
+    width: 68rem;
     height: fit-content;
     align-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
     height: 13.5rem;
     background-color: white;
     border-radius: 50%;
-    border: darkgoldenrod solid 0.5rem;
+    border: slateblue solid 0.5rem;
     color: black;
     display: flex;
     align-items: center;

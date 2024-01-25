@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Cafe24ClassicType-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header {
     position: fixed;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(55,55,55,1) 50%, rgba(0,0,0,1) 100%);
@@ -27,6 +34,7 @@ header {
     font-size: xx-large;
     font-weight: bold;
     transition: 0.3s;
+    font-family: 'Cafe24ClassicType-Regular';
 }
 
 .title button:hover {
@@ -39,6 +47,7 @@ header {
     height: 100%;
 }
 
+
 .button {
     width: 6rem;
     height: 100%;
@@ -47,6 +56,7 @@ header {
     color: white;
     border: solid rgba(0,0,0,0) 0.1rem;
     transition: 0.3s;
+    font-family: 'Cafe24ClassicType-Regular';
 }
 
 .button:hover {

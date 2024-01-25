@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import 프사 from './img/프사.jpg'
-import './welcome.css'
-import music from "./music/a-jazz-piano.mp3"
+import './css/welcome.css';
+import music from "./assets/a-jazz-piano.mp3";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePause, faCirclePlay, faCircleStop } from '@fortawesome/free-solid-svg-icons';
 
@@ -70,7 +69,7 @@ function Welcome () {
                             <div id='cd2'>
                                 <div id='cd3'>
                                     <div>
-                                        <img id='profile' src={프사}  alt="사진1" draggable='false'/>
+                                        <img id='profile' src='img/프사.jpg'  alt="사진1" draggable='false'/>
                                     </div>
                                 </div>
 

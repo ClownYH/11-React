@@ -7,7 +7,7 @@
 
 
 #recordPlayer {
-    background: url('./img/6464359.jpg') center/cover;
+    background: url('/public/img/6464359.jpg') center/cover;
     height: 65rem;
     width: 65rem;
     border-radius: 5%;
@@ -17,6 +17,7 @@
     align-items: center;
     transform: rotate(30deg);
     z-index: 1;
+    box-shadow: 3px 3px 20px 3px #555555;
 }
 
 #cd {
