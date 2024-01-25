@@ -2,7 +2,7 @@ import 프사2 from './img/증명사진(2023).jpg'
 import './about.css'
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCakeCandles, faHouse, faSchoolFlag } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 const CurrentDate = () => {
     const [date, setDate] = useState(new Date());
@@ -63,15 +63,6 @@ function About () {
                         <p>
                             <FontAwesomeIcon icon={faUser} /><label> 이름 </label><span>정유환</span>
                         </p>
-                        <p>
-                            <FontAwesomeIcon icon={faCakeCandles} /><label> 나이 </label><span>92.08.24.</span>
-                        </p>
-                        <p>
-                            <FontAwesomeIcon icon={faHouse} /><label> 주소 </label><span>경기도 안양시</span>
-                        </p>
-                        <p>
-                            <FontAwesomeIcon icon={faSchoolFlag} /><label> 학력 </label><span>한국공학대학교</span><span>(구 한국산업기술대학교)</span><span> 기계공학과 졸업</span>
-                        </p>  
                     </div>
                 </article>
             </div>

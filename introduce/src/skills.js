@@ -36,11 +36,6 @@ function Skills () {
             icon : <FontAwesomeIcon icon={faLeaf} size='8x'/>
         },
 
-        springBoot : {
-            name : "Spring boot",
-            icon : <FontAwesomeIcon icon={faPowerOff} size='8x'/>
-        },
-
         mySql : {
             name : "MySQL",
             icon : <FontAwesomeIcon icon={faDatabase} size='8x'/>
