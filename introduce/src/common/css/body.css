@@ -13,7 +13,7 @@
 }
 
 body {
-    background: #c6c6e4;
+    background: ghostwhite;
     z-index: 0;
     font-family: 'Cafe24Danjunghae';
 }
@@ -31,14 +31,14 @@ h2 {
 
 .subTitle {
     font-weight: bolder;
-    color: white;
+    color: black;
     font-size: x-large;
 }
 
 section {
   padding-left: 8rem;
   padding-right: 8rem;
-  border-bottom: ghostwhite 0.5rem double;
+  border-bottom: rgb(71, 66, 49) 0.5rem double;
 }
 
 /* 스크롤바 */

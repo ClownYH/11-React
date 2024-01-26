@@ -47,6 +47,7 @@ function About () {
                     </div>
                     <br/>
                     <br/>
+                    <br/>
                     <div id='gitPlants'>
                         <img src="https://ghchart.rshah.org/2697bf/ClownYH"/>
                         <CurrentDate/>

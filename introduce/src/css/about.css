@@ -1,8 +1,8 @@
 #about {
     padding-top: 4.725%;
     cursor:default;
-    color: white;
-    padding-bottom: 6%;
+    color: black;
+    padding-bottom: 8%;
 }
 
 #picture {
@@ -12,9 +12,9 @@
 }
 
 .album {
-    background-color: #8e8eff;
-    width: 20rem;
-    height: 26rem;
+    background-color: white;
+    width: 19rem;
+    height: 25rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -25,12 +25,14 @@
 .contents {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
 }
 
 #saying {
     font-size: 30px;
-    margin-right: 25rem;
+    margin-right: 20rem;
+    line-height: 33px;
 }
 
 #saying .emp {
@@ -52,8 +54,11 @@
 }
 
 .subContents {
+    display: flex;
     font-size: 18px;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .selfIntro {
@@ -65,7 +70,7 @@
     box-shadow: 3px 3px 6px 3px #555555;
     transition: 0.5s;
     width: 23rem;
-    line-height: 22px;
+    line-height: 24px;
 }
 
 .selfIntro:hover {

@@ -54,12 +54,13 @@ function Welcome () {
         <section id='welcome'>
 
             <article className='libre-barcode'>
+            <CurrentTime/>
+            <br/>
+            <br/>
             <p style={{fontSize:"110px"}}>WELCOME</p>
             <p style={{fontSize:"100px"}}>TO</p>
             <p style={{fontSize:"100px"}}><span style={{fontSize:"120px", color:"purple"}}>YUHWAN</span>'s</p>
             <p style={{fontSize:"150px"}}>PORTPOLIO</p>
-            <br/>
-            <CurrentTime/>
             </article>
 
             <article>

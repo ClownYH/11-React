@@ -5,67 +5,78 @@ import { faCirclePlus, faCrow, faDatabase, faLeaf, faPowerOff } from '@fortaweso
 
 function Skills () {
     // 해당 자료는  FontAwesomeIcon을 사용하고 있어서 json으로 분리할 수 없었다.
-    const skills = {
+    const frontSkills = {
         html5 : {
             name : "HTML5",
-            icon : <FontAwesomeIcon icon={faHtml5} size='8x'/>
+            icon : <FontAwesomeIcon icon={faHtml5} size='6x'/>
         },
 
         css3 : {
             name: "CSS3",
-            icon : <FontAwesomeIcon icon={faCss3Alt} size="8x" />
+            icon : <FontAwesomeIcon icon={faCss3Alt} size="6x" />
         },
 
         js : {
             name : "JavaScript",
-            icon : <FontAwesomeIcon icon={faJs} size='8x'/>
+            icon : <FontAwesomeIcon icon={faJs} size='6x'/>
         },
 
         react : {
             name : "React",
-            icon : <FontAwesomeIcon icon={faReact} size='8x'/>
-        },
-
-        java : {
-            name : "Java",
-            icon : <FontAwesomeIcon icon={faJava} size='8x'/>
-        },
-
-        spring : {
-            name : "Spring",
-            icon : <FontAwesomeIcon icon={faLeaf} size='8x'/>
-        },
-
-        mySql : {
-            name : "MySQL",
-            icon : <FontAwesomeIcon icon={faDatabase} size='8x'/>
-        },
-
-        myBatis : {
-            name : "MyBatis",
-            icon : <FontAwesomeIcon icon={faCrow} size='8x'/>
-        },
-
-        github : {
-            name : "Github",
-            icon : <FontAwesomeIcon icon={faGithub} size='8x'/>
-        },
-
-        toBeAdded : {
-            name : "...To be Added!!",
-            icon : <FontAwesomeIcon icon={faCirclePlus} size='8x'/>
+            icon : <FontAwesomeIcon icon={faReact} size='6x'/>
         }
     }
 
-    const skillList = () => {
+    const frontSkillList = () => {
         // Object 객체로 변환(배열이 아니기 때문에 직접 map을 적용할 수 없다.)
-        return Object.values(skills).map((skill, index) => (
+        return Object.values(frontSkills).map((skill, index) => (
             <div key={index} className='skill'>
                 {skill.icon}
                 <label>{skill.name}</label>
             </div>
         ))
-        
+    }
+
+    const backSkills = {
+        java : {
+            name : "Java",
+            icon : <FontAwesomeIcon icon={faJava} size='6x'/>
+        },
+
+        spring : {
+            name : "Spring",
+            icon : <FontAwesomeIcon icon={faLeaf} size='6x'/>
+        },
+
+        mySql : {
+            name : "MySQL",
+            icon : <FontAwesomeIcon icon={faDatabase} size='6x'/>
+        },
+
+        myBatis : {
+            name : "MyBatis",
+            icon : <FontAwesomeIcon icon={faCrow} size='6x'/>
+        },
+
+        github : {
+            name : "Github",
+            icon : <FontAwesomeIcon icon={faGithub} size='6x'/>
+        },
+
+        toBeAdded : {
+            name : "...To be Added!!",
+            icon : <FontAwesomeIcon icon={faCirclePlus} size='6x'/>
+        }
+    }
+
+    const backSkillList = () => {
+        // Object 객체로 변환(배열이 아니기 때문에 직접 map을 적용할 수 없다.)
+        return Object.values(backSkills).map((skill, index) => (
+            <div key={index} className='skill'>
+                {skill.icon}
+                <label>{skill.name}</label>
+            </div>
+        ))
     }
     
     return (
@@ -77,8 +88,13 @@ function Skills () {
             <div id='skillContents'>
             <article id='skillTree'>
                 <img id='coffee' src='img/coffee.png' draggable='false'/>
+                <h3>FrontEnd</h3>
                 <div className='skillTable'>
-                    {skillList()}
+                    {frontSkillList()}
+                </div>
+                <h3>BackEnd</h3>
+                <div className='skillTable'>
+                    {backSkillList()}
                 </div>
             </article>
             </div>
