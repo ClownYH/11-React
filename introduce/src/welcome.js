@@ -61,6 +61,7 @@ function Welcome () {
             <p style={{fontSize:"100px"}}>TO</p>
             <p style={{fontSize:"100px"}}><span style={{fontSize:"120px", color:"purple"}}>YUHWAN</span>'s</p>
             <p style={{fontSize:"150px"}}>PORTPOLIO</p>
+            <br/>
             </article>
 
             <article>

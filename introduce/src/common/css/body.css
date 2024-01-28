@@ -13,7 +13,7 @@
 }
 
 body {
-    background: ghostwhite;
+    background: white;
     z-index: 0;
     font-family: 'Cafe24Danjunghae';
 }
@@ -36,8 +36,8 @@ h2 {
 }
 
 section {
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
   border-bottom: rgb(71, 66, 49) 0.5rem double;
 }
 

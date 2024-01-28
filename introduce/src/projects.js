@@ -25,6 +25,27 @@ function Projects(){
                             <br/>
                         </p>
                         <br/>
+                        <h4><FontAwesomeIcon icon={faChessPawn} /> 사용 기술</h4>
+                        <hr/>
+                        <p>
+                            {project.prSkills}
+                        </p>
+                        <br/>
+                        <h4><FontAwesomeIcon icon={faChessPawn} /> 담당 파트</h4>
+                        <hr/>
+                        <p>
+                            {project.act1}
+                        </p>
+                        <p>
+                            {project.act2}
+                        </p>
+                        <p>
+                            {project.act3}
+                        </p>
+                        <p>
+                            {project.act4}
+                        </p>
+                        <br/>
                         <h4><FontAwesomeIcon icon={faChessPawn} /> 아키텍처 / DB</h4>
                         <hr/>
                         {project.refImg.map((img, i) => (

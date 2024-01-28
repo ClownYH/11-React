@@ -36,18 +36,22 @@ function About () {
                 <p>About.</p>
             </h2>
             <div className='contents'>
-                <article>
+                <article id='aboutContents'>
                     <div id='saying'>
-                        "<strong>경험과 노력</strong>으로 쌓는 실력은<br/>저를 더 <strong>단단하게</strong> 담금질합니다."<br/>
-                        <br/>
-                        "그래서 저는 더 많은 기회를 원합니다."
-                        <br/>
-                        <br/>
                         "<strong className='emp'>근면, 성실</strong>의 기본을 갖춘 <strong className='emp'>노력형 인재</strong>"
+                        <br/>
+                        <br/>
+                        <p style={{fontSize:"15px"}}>안녕하세요. 신입 개발자 정유환입니다. <br/>
+                        새로운 기술을 배우고 이를 통해 성장하는 스스로의 모습에서 <br/>
+                        큰 성취감을 느낍니다. 언제나 완성된 개발자가 되는 제 모습을 상상하며 <br/>
+                        이를 현실에서 이루기 위해 노력하고 있습니다.<br/>
+                        혼자만 성장하는 것보다는 동료들과 함께 성장하는 개발자가 되고자 합니다.<br/>
+                        받은 기대에 부응하는 모습을 보여드리고자 더욱 노력하겠습니다.<br/>
+                        </p>
+                        <br/>
+                        <br/>
+                        <br/>
                     </div>
-                    <br/>
-                    <br/>
-                    <br/>
                     <div id='gitPlants'>
                         <img src="https://ghchart.rshah.org/2697bf/ClownYH"/>
                         <CurrentDate/>
@@ -68,7 +72,7 @@ function About () {
                             <label><FontAwesomeIcon icon={faHand}/> </label><span>전형적인 INFP</span>
                         </p>
                         <p>
-                            <label><FontAwesomeIcon icon={faBook}/> </label><span>독서, 게임</span>
+                            <label><FontAwesomeIcon icon={faBook}/> </label><span>게임이나 서브컬쳐에 관심이 많음</span>
                         </p>
                         <p>
                             <label><FontAwesomeIcon icon={faUpload}/> </label><span>qwer1745@gmail.com</span>

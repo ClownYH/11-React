@@ -3,7 +3,12 @@
         "prSubTitle" : "Semi Projects",
         "prTitle" : "Bunny Room",
         "prPeriod" : "2023.12.13. ~ 2024.01.08.",
-        "description" : "첫 프로젝트로 공간 대여 서비스 '버니룸(Bunny Room)'에 참여하여 관리자의 회원, 블랙리스트, 업체, 홈페이지 설정 등을 관리하는 기능 제작하는 파트를 주로 담당했으며, 일반 이용자가 사용하는 마이페이지 기능 제작을 보조하였고, 프로젝트의 CSS 전반에 참여, 제작하였습니다.",
+        "description" : "첫 프로젝트로 공간 대여 서비스 '버니룸(Bunny Room)'에 참가인원 3인 중 한명으로 참여하여 관리자의 회원, 블랙리스트, 업체, 홈페이지 설정 등을 관리하는 기능 제작하는 파트를 주로 담당했으며, 일반 이용자가 사용하는 마이페이지 기능 제작을 보조하였고, 프로젝트의 CSS 전반에 참여, 제작하였습니다.",
+        "act1" : "1. 개발자의 관여를 줄이는 방향으로 관리자 페이지의 전 기능 구현 및 spring boot 서버 구축",
+        "act2" : "2. 이용자의 편의를 위한 마이페이지 등의 기능 구현 등을 보조",
+        "act3" : "3. MySQL을 이용해 버니룸에서 이용 가능한 전체 서비스의 DB 구축",
+        "act4" : "4. 버니룸의 전체 디자인과 배치에 대한 CSS 구현",
+        "prSkills": "HTML5, CSS3, JavaScript, Java, spring, MySQL",
         "mainImg" : "img/projects/bunnyroom/토끼로고.jpg",
         "refImg" : ["img/projects/bunnyroom/archi.png", "img/projects/bunnyroom/db.png"],
         "github": "https://github.com/yycBunnyRoom/SEMI_PROJECT-BUNNY_ROOM"

@@ -132,7 +132,7 @@
 }
 
 #musicPlayer button:active {
-    background-color: red;
+    background-color: darkgoldenrod;
 }
 
 #musicPlayer #stop {

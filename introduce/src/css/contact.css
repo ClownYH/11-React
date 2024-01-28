@@ -13,11 +13,11 @@
 }
 
 #board1 {
-    background: rgb(91,48,35);
-    background: linear-gradient(45deg, rgba(91,48,35,1) 0%, rgba(79,37,11,1) 13%, rgba(106,60,12,1) 88%);
+    background: #773f2e;
+    background: linear-gradient(45deg, rgba(91,48,35,1) 0%, rgba(79,37,11,1) 13%, #773f2e 88%);
     border-radius: 2rem;
     height: 50rem;
-    width:100% ;
+    width:97% ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,8 +25,8 @@
 }
 
 #board2 {
-    background: rgb(29,83,31);
-    background: linear-gradient(45deg, rgba(29,83,31,1) 0%, rgba(12,106,20,1) 88%);
+    background: #277029;
+    background: linear-gradient(45deg, rgba(29,83,31,1) 0%, #277029 88%);
     width: 95%;
     height: 90%;
     border-radius: 1rem;

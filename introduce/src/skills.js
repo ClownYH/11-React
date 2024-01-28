@@ -56,8 +56,20 @@ function Skills () {
         myBatis : {
             name : "MyBatis",
             icon : <FontAwesomeIcon icon={faCrow} size='6x'/>
-        },
+        }
+    }
 
+    const backSkillList = () => {
+        // Object 객체로 변환(배열이 아니기 때문에 직접 map을 적용할 수 없다.)
+        return Object.values(backSkills).map((skill, index) => (
+            <div key={index} className='skill'>
+                {skill.icon}
+                <label>{skill.name}</label>
+            </div>
+        ))
+    }
+
+    const etc = {
         github : {
             name : "Github",
             icon : <FontAwesomeIcon icon={faGithub} size='6x'/>
@@ -69,9 +81,9 @@ function Skills () {
         }
     }
 
-    const backSkillList = () => {
+    const etcList = () => {
         // Object 객체로 변환(배열이 아니기 때문에 직접 map을 적용할 수 없다.)
-        return Object.values(backSkills).map((skill, index) => (
+        return Object.values(etc).map((skill, index) => (
             <div key={index} className='skill'>
                 {skill.icon}
                 <label>{skill.name}</label>
@@ -87,7 +99,6 @@ function Skills () {
             </h2>
             <div id='skillContents'>
             <article id='skillTree'>
-                <img id='coffee' src='img/coffee.png' draggable='false'/>
                 <h3>FrontEnd</h3>
                 <div className='skillTable'>
                     {frontSkillList()}
@@ -96,6 +107,11 @@ function Skills () {
                 <div className='skillTable'>
                     {backSkillList()}
                 </div>
+                <h3>etc</h3>
+                <div className='skillTable'>
+                    {etcList()}
+                </div>
+                <img id='coffee' src='img/coffee.png' draggable='false'/>
             </article>
             </div>
         </section>

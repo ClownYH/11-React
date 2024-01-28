@@ -14,7 +14,7 @@ function Contact () {
                     <article className='contactBoard'>
                         <p>
                             감사합니다.<br/>
-                            언제나 노력하는<br/>
+                            언제나 성장하는<br/>
                             개발자가 되겠습니다.
                         </p>
                     </article>
