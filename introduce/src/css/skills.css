@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(/public/img/6464359.jpg);    
+    filter: brightness(120%);
 }
 
 #skillTree h3 {
