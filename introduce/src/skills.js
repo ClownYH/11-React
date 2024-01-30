@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './css/skills.css'
 import { faCss3Alt, faGithub, faHtml5, faJava, faJs, faReact } from '@fortawesome/free-brands-svg-icons'
-import { faCirclePlus, faCrow, faDatabase, faLeaf, faPowerOff } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlus, faCrow, faDatabase, faLeaf } from '@fortawesome/free-solid-svg-icons'
 
 function Skills () {
     // 해당 자료는  FontAwesomeIcon을 사용하고 있어서 json으로 분리할 수 없었다.

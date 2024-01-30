@@ -2,13 +2,18 @@ import './css/projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChessPawn } from '@fortawesome/free-solid-svg-icons'
 import projects from './data/projects.json'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 
 function Projects(){ 
 
     const projectList = () => {
         return Object.values(projects).map((project, index) => (
+            <SwiperSlide>
                 <article key={index} className="project">
-                    <img className='mainImg' src={project.mainImg}/>
+                    <img className='mainImg' src={project.mainImg} alt='메인 이미지'/>
                     <div className='description'>
                         <h3 className='prSubTitle'>{project.prSubTitle}</h3>
                         <h1 className='prTitle'>{project.prTitle}</h1>
@@ -61,6 +66,7 @@ function Projects(){
 
                     </div>
                 </article>
+            </SwiperSlide>
         ))
 
     }
@@ -72,9 +78,11 @@ function Projects(){
                 <p>Projects.</p>
             </h2>
 
-            <div className='projectList'>
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <div className='projectList'>
                 {projectList()}
             </div>
+        </Swiper>
         </section>
     )
 }

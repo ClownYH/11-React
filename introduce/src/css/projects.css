@@ -61,3 +61,12 @@
     font-size: x-large;
     font-weight: bold;
 }
+
+.swiper-slide.swiper-slide-active {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: -webkit-fill-available;
+}
