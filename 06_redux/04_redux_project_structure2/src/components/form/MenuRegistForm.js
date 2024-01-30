@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { resolvePath, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { callRegistMenuAPI } from "../../apis/MenuAPICalls";
 
 const MenuRegistForm = () => {
@@ -21,7 +21,6 @@ const MenuRegistForm = () => {
             }
         }
     );
-
 
     const onChangeHandler = e => {
         let name = e.target.name;

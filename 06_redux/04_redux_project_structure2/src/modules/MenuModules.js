@@ -23,7 +23,7 @@ export const {menu : {getMenulist, getMenu, registMenu, modifyMenu, deleteMenu}}
 // 리듀서 함수
 const menuReducer = handleActions(
     {
-        [GET_MENULIST] : (state, {payload}) => {
+        [GET_MENULIST] : (state, {payload}) => { // {payload}는 액션함수를 통해 연산되고 반환된 값이다.
             return payload;
         },
         [GET_MENU] : (state, {payload}) => {

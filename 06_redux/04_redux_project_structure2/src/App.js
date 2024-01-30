@@ -7,6 +7,7 @@ import MenuRegist from "./page/MenuRegist";
 import MenuModify from "./page/MenuModify";
 import Error from "./page/Error";
 import Login from "./page/Login";
+import './App.css'
 
 function App() {
   return (
