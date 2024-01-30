@@ -27,6 +27,8 @@ h2 {
     font-size: larger;
     font-weight: bold;
     font-family: 'Cafe24ClassicType-Regular';
+    position: relative;
+    left: 7.6rem;
 }
 
 .subTitle {

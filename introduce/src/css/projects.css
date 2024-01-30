@@ -21,7 +21,7 @@
 .project {
     background-color: white;
     border: solid 1rem rgb(97, 171, 255);
-    width: 88rem;
+    width: 82rem;
     min-height: 40rem;
     padding: 2rem;
     display: flex;
@@ -42,23 +42,23 @@
 }
 
 .refImg {
-    width: 27rem;
+    width: 25rem;
     margin: 1rem;
     margin-bottom: 0rem;
     transition: 0.5s;
 }
 
 .refImg:hover {
-    transform: scale(2);
+    transform: scale(2.2);
 }
 
 .prSubTitle {
-    font-size: large;
+    font-size: x-large;
     color: darkgrey;
 }
 
 .prTitle {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
 
@@ -69,4 +69,12 @@
 
 .description {
     width: -webkit-fill-available;
+}
+
+.project h4 {
+    font-size: larger;
+}
+
+.project p {
+    font-size: large;
 }

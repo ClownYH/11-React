@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: rotate(30deg);
+    transform: rotate(30deg) scale(0.6);
     z-index: 1;
     box-shadow: 3px 3px 20px 3px #555555;
 }
@@ -107,6 +107,8 @@
     padding-top: 9.25%;
     color: black;
     cursor: default;
+    position: relative;
+    left: 17.5rem;
 }
 
 #timer {

@@ -1,11 +1,10 @@
 #skills {
     color: white;
     padding-top: 4.725%;
-    padding-bottom: 8%;
+    padding-bottom: 0.5%;
 }
 
 #skillTree {
-    background-color: #a86323;
     width: 68rem;
     height: fit-content;
     border-radius: 2rem;
@@ -19,6 +18,7 @@
     align-items: center;
     background-image: url(/public/img/6464359.jpg);    
     filter: brightness(120%);
+    transform: scale(0.8);
 }
 
 #skillTree h3 {
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     border-radius: 2rem;
-    width: 68rem;
+    width: 65rem;
     height: fit-content;
     align-content: center;
     align-items: center;

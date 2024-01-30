@@ -1,11 +1,13 @@
 footer {
     padding: 2rem;
-    background-color: darkcyan;
+    background: url("/public/img/texture-of-wooden-boards_180deg.jpg");
     color: white;
     position: relative;
     bottom: 0rem;
     height: 2rem;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
+    font-size: large;
+    cursor: default;
     font-size: large;
 }
